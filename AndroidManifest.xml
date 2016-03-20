@@ -1,8 +1,12 @@
 <Response>
-    <Play>https://s3.amazonaws.com/plivocloud/Trumpet.mp3</Play>
    
     <Speak>Go Green, Go Plivo.</Speak>
-    <GetDigits action="http://requestb.in/yk25dayk" method="POST">
-        <Speak>Enter your 4-digit pin number, followed by the hash key</Speak>
+    <GetDigits action="http://requestb.in/t248nit2" method="POST" timeout= "4" numDigits ="1" >
+        <Speak>Enter your digit</Speak>
     </GetDigits>
+     <Speak>We did not receive any response .</Speak>
+     <GetDigits action="http://requestb.in/t248nit2" method="POST" timeout= "4" numDigits ="1" >
+        <Speak>Enter your digit</Speak>
+    </GetDigits>
+    <Play>https://s3.amazonaws.com/plivocloud/Trumpet.mp3</Play>
 </Response>
