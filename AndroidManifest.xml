@@ -5,8 +5,5 @@
         <Speak>Enter your digit</Speak>
     </GetDigits>
      <Speak>We did not receive any response .</Speak>
-     <GetDigits action="http://requestb.in/t248nit2" method="POST" timeout= "4" numDigits ="1" >
-        <Speak>Enter your digit</Speak>
-    </GetDigits>
-    <Play>https://s3.amazonaws.com/plivocloud/Trumpet.mp3</Play>
+     <Redirect>http://requestb.in/1d62xkz1</Redirect>
 </Response>
