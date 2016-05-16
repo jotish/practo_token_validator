@@ -1,9 +1,4 @@
-<Response>
-   
-    <Speak>Go Green, Go Plivo.</Speak>
-    <GetDigits action="http://requestb.in/t248nit2" method="POST" timeout= "4" numDigits ="1" >
-        <Speak>Enter your digit</Speak>
-    </GetDigits>
-     <Speak>We did not receive any response .</Speak>
-     <Redirect>http://requestb.in/1d62xkz1</Redirect>
-</Response>
+<?xml version="1.0" encoding="UTF-8"?>
+2	<response>
+3	  <hangup></hangup>
+4	</response>
